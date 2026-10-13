@@ -1,4 +1,4 @@
-# Epsilon Networked Arena 🎮🌐
+# Epsilon Networked Arena 
 
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.java.com)
 [![Networking](https://img.shields.io/badge/Networking-TCP%2FUDP-green.svg)]()
@@ -7,13 +7,13 @@
 
 > **Epsilon Networked Arena** is an advanced, multiplayer game developed in Java across three phases. While the early phases focused on physics-based combat and complex enemy AI, the final phase transforms the game into a fully distributed **Client-Server multiplayer system** with real-time communication, team-based battles, and persistent data storage. This project demonstrates a strong command of **network programming**, **concurrency**, and **clean software architecture**.
 
-## 📖 Project Overview
+##  Project Overview
 
 This project was developed for the **Advanced Programming** course at Sharif University of Technology. It evolves from a single-player geometric combat game into a networked multiplayer experience, where players can form squads, compete in ranked battles, and track their progress on a global leaderboard.
 
 The project's primary technical focus is on **networked architecture**: designing two independent Java applications (Client and Server), managing concurrent connections, synchronizing game state across multiple clients, and persisting data in a relational database.
 
-## 🌐 Networking & Architecture Highlights
+##  Networking & Architecture Highlights
 
 - **Client-Server Architecture:**
   Two fully independent Java applications communicate over **TCP/UDP sockets**. The server is capable of handling multiple concurrent clients, processing requests, and broadcasting game state updates without blocking.
@@ -30,7 +30,7 @@ The project's primary technical focus is on **networked architecture**: designin
 - **Server CLI:**
   Administrative commands (e.g., `initiateSquadBattle`, `terminateSquadBattle`, and game speed adjustments) are executed at runtime via an integrated CLI.
 
-## ✨ Key Game Features
+##  Key Game Features
 
 - **Phase 1 (Core Engine):** Geometric combat with *Epsilon* vs. Trigorath, Squarantine, and dynamic frame shrinkage. Physics-based movement (acceleration/deceleration) and collision detection.
 - **Phase 2 (Advanced Mechanics):** Complex enemies (Necropick, Archmire, Black Orb), Boss fights (Smiley), AoE attacks, Global Routing, and a Skill Tree system.
@@ -40,7 +40,7 @@ The project's primary technical focus is on **networked architecture**: designin
   - **Squad Vault:** In-game economy for team-wide buffs (Call of Palioxis, Call of Adonis).
   - **Offline Mode:** Full offline gameplay with automatic synchronization of results to the server.
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 | Category | Technologies |
 |---|---|
@@ -50,7 +50,7 @@ The project's primary technical focus is on **networked architecture**: designin
 | **Build Tool** | Maven |
 | **Logging** | SLF4J, Log4j |
 
-## 🏗️ Architecture & Design Patterns
+##  Architecture & Design Patterns
 
 - **MVC (Model-View-Controller):** Applied across all phases to separate game logic, UI, and control flow.
 - **Event-Driven Architecture:** Used for handling asynchronous game events (collisions, wave spawns, network packets).
